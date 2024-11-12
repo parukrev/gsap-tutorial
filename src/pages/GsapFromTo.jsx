@@ -12,7 +12,7 @@ const GsapFromTo = () => {
         borderRadius: "0%", // border radius awal
       },
       {
-        x: 250, // arah x berarti horizontal
+        x: 400, // arah x berarti horizontal
         repeat: -1, // di repeat infinity karena -1
         yoyo: true, // efek yoyo berarti bouncing
         borderRadius: "50%", // border radius di titik akhir
