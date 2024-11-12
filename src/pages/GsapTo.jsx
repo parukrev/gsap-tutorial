@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-const GsapTo = () => { // gsap to berarti ke kanan ->
+const GsapTo = () => { // gsap to berarti ke kanan -> (titik awal menuju kemana)
   useGSAP(() => {
     gsap.to("#blue-box", { // target element nya
       x: 250, // arah x berarti horizontal
