@@ -15,7 +15,7 @@ const GsapFromTo = () => {
         x: 250, // arah x berarti horizontal
         repeat: -1, // di repeat infinity karena -1
         yoyo: true, // efek yoyo berarti bouncing
-        borderRadius: "100%", // border radius di titik akhir
+        borderRadius: "50%", // border radius di titik akhir
         rotation: 360, // di rotasi 360 derajat
         duration: 2, // durasi 2 detik
         ease: "power2.inOut", // efek easing
